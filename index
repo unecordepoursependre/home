@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CordePro - Vente de cordes</title>
+  <style>
+    body{font-family:Arial, sans-serif;margin:0;background:#f4f4f4}
+    header{background:#2c3e50;color:white;padding:20px;text-align:center}
+    nav{background:#34495e;padding:10px;text-align:center}
+    nav a{color:white;margin:0 15px;text-decoration:none;font-weight:bold}
+    .container{padding:30px;max-width:1100px;margin:auto}
+    .products{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+    .card{background:white;padding:20px;border-radius:10px;box-shadow:0 2px 5px rgba(0,0,0,0.1);text-align:center}
+    .card img{width:100%;border-radius:8px}
+    .price{font-size:20px;color:#27ae60;font-weight:bold}
+    button{background:#27ae60;color:white;border:none;padding:10px 15px;border-radius:5px;cursor:pointer}
+    button:hover{background:#219150}
+    footer{background:#2c3e50;color:white;text-align:center;padding:15px;margin-top:40px}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>CordePro</h1>
+  <p>Spécialiste de la vente de cordes résistantes</p>
+</header>
+
+<nav>
+  <a href="#">Accueil</a>
+  <a href="#">Nos cordes</a>
+  <a href="#">À propos</a>
+  <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+  <h2>Nos meilleures cordes</h2>
+
+  <div class="products">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1581093588401-16ec0e3cfa1b" alt="corde nylon">
+      <h3>Corde en Nylon</h3>
+      <p>Ultra résistante pour usage extérieur.</p>
+      <p class="price">12€</p>
+      <button>Acheter</button>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1599059813005-11265ba4b4ce" alt="corde escalade">
+      <h3>Corde d'escalade</h3>
+      <p>Parfaite pour l'alpinisme et l'escalade.</p>
+      <p class="price">45€</p>
+      <button>Acheter</button>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1616627456422-0c6d3c6e1b17" alt="corde chanvre">
+      <h3>Corde en chanvre</h3>
+      <p>Style naturel et très solide.</p>
+      <p class="price">18€</p>
+      <button>Acheter</button>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  <p>© 2026 CordePro - Tous droits réservés</p>
+</footer>
+
+</body>
+</html>
